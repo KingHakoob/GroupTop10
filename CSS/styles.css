@@ -34,3 +34,9 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.listtext {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
