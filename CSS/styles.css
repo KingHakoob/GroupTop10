@@ -2,9 +2,35 @@
     background-color: black;
 }
 
+.navButton {
+    color: black;
+}
+
 .title {
-    font-size: 6rem;
+    font-size: 7rem;
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.top10txt {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.top10buttons {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
