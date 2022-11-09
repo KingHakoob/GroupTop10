@@ -24,7 +24,7 @@
 }
 
 .top10buttons {
-    font-size: 4rem;
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
@@ -40,4 +40,8 @@
     color: white;
     display: flex;
     justify-content: center;
+}
+
+h5 {
+    background-color: rgba(0, 0, 0, 0.741);
 }
