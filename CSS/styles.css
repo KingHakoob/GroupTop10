@@ -5,11 +5,13 @@
 
 .navButton {
     color: black;
+    font-family: "Secular One", sans-serif;
     font-size: 1.5rem;
 }
 
 .title {
     font-size: 6rem;
+    font-family: "Secular One", sans-serif;
     color: white;
     text-align: center;
 }
@@ -24,14 +26,15 @@
 }
 
 .top10buttons {
-    font-size: 2rem;
+    font-size: 1.93rem;
+    font-family: "Roboto Slab", serif;
     color: rgb(0, 0, 0);
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -42,6 +45,40 @@
     justify-content: center;
 }
 
-h5 {
+.carouseltext {
+    font-family: "Secular One", sans-serif;
     background-color: rgba(0, 0, 0, 0.741);
+}
+
+.carousels {
+    display: block;
+    border: 5px solid rgb(255, 0, 0);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-title {
+    font-family: "Secular One", sans-serif;
+}
+
+.card-text {
+    font-family: "Roboto Slab", serif;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 540px) {
+      .navButton {
+        font-size: 1rem;
+      }
+
+}
+@media screen and (max-width: 385px) {
+    .navButton {
+      font-size: 0.5rem;
+    }
+
 }
