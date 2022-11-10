@@ -17,14 +17,26 @@
 <body background="./AssetsJacob/DarkBackGround.png" class="body">
 
   <!--Beginning NavBar-->
-  <nav class="navbar bg-light">
-    <form class="container-fluid justify-content-start">
-      <button class="btn btn navButton" type="button" onclick="window.location.href='./index.html'">Home Page</button>
-      <button class="btn btn navButton" type="button" onclick="window.location.href='./Pages/JacobsTop10.html'">Jacobs
-        Top 10</button>
-      <button class="btn btn navButton" type="button" onclick="window.location.href='./Pages/ShaunsTop10.html'">Shauns
-        Top 10</button>
-    </form>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand navButton" href="#">Top 10s</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active navButton" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navButton" href="./Pages/JacobsTop10.html">Jacob's Top 10</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navButton" href="./Pages/ShaunsTop10.html">Shaun's Top 10</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <!--End NavBar-->
 

@@ -6,7 +6,6 @@
 .navButton {
     color: black;
     font-family: "Secular One", sans-serif;
-    font-size: 1.5rem;
 }
 
 .title {
@@ -36,7 +35,7 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: auto; 
 }
 
 .listtext {
@@ -71,10 +70,6 @@
 }
 
 @media screen and (max-width: 540px) {
-      .navButton {
-        font-size: 1rem;
-      }
-
       .title {
         font-size: 3rem;
       }
@@ -85,10 +80,6 @@
 
 }
 @media screen and (max-width: 385px) {
-    .navButton {
-      font-size: 0.5rem;
-    }
-
     .title {
         font-size: 2rem;
     }
