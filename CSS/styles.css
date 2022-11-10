@@ -75,10 +75,26 @@
         font-size: 1rem;
       }
 
+      .title {
+        font-size: 3rem;
+      }
+
+      .top10buttons {
+        font-size: 1rem;
+      }
+
 }
 @media screen and (max-width: 385px) {
     .navButton {
       font-size: 0.5rem;
     }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .top10buttons {
+        font-size: 0.5rem;
+      }
 
 }
