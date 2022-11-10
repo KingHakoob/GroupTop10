@@ -32,10 +32,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: auto;
-    margin-bottom: auto; 
+    margin: auto;
 }
 
 .listtext {
@@ -67,6 +64,16 @@
 .videos {
     display: flex;
     justify-content: center;
+}
+
+.backtop {
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
 }
 
 @media screen and (max-width: 540px) {
